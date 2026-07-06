@@ -1,0 +1,37 @@
+{
+  "name": "opencode-vision",
+  "version": "0.1.0",
+  "description": "Give any opencode model vision — OCR + Android screenshots + optional local VLM. Bridges non-vision models to see images via Apple Vision + LM Studio.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "vision",
+    "ocr",
+    "mcp",
+    "apple-vision",
+    "android",
+    "adb",
+    "lm-studio",
+    "screenshot"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeljan-alduk/opencode-vision"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "latest",
+    "@types/node": "^26.1.0",
+    "typescript": "^5.4.0"
+  }
+}
